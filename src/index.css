@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+:root {
+    --primary-dark: #a98d60;
+    --primary-light: #90e0ef;
+    --primary-neutral : #84a59d;
+  }

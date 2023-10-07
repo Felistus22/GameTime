@@ -1,0 +1,52 @@
+/* Puzzle container styles */
+.puzzle-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Puzzle title styles */
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  /* Puzzle grid styles */
+  .puzzle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Adjust the size as needed */
+    grid-gap: 5px; /* Adjust the gap between tiles */
+    margin-top: 20px;
+  }
+  
+  /* Tile styles */
+  .tile {
+    width: 100px; /* Adjust the tile size as needed */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #3498db; /* Tile background color */
+    color: white; /* Tile text color */
+    cursor: pointer;
+  }
+  
+  /* Empty tile styles */
+  .tile.empty {
+    background-color: #ccc; /* Color for empty tile */
+    cursor: not-allowed;
+  }
+  
+  /* Puzzle solved message styles */
+  p {
+    font-size: 18px;
+    color: green;
+    margin-top: 20px;
+  }
+  
